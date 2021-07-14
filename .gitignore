@@ -1,0 +1,7 @@
+/build/
+/lib/*
+!/lib/.gitkeep
+/deps/**
+/debug/
+/release/
+/.cache/

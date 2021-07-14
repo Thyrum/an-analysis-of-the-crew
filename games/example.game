@@ -1,0 +1,11 @@
+# The first non-comment must be:
+# "PLAYER COUNT" "STARTING PLAYER" "SUIT COUNT"
+# Where "STARTING PLAYER" is zero-indexed
+# The suits available are 0 to (SUIT COUNT-1) with suit 0 the trump suit
+2 0 2
+# Then the hands, a list of cards per player, where a card is [suit, value]
+[1,2] [0,1]
+[0,2] [1,0]
+# Followed by the objectives
+[1,2]
+[0,1]
